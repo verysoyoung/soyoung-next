@@ -6,7 +6,6 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        {' '}
         <meta charSet="utf-8" />
         <meta
           name="viewport"
