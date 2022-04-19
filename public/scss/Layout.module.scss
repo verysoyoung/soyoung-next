@@ -1,5 +1,8 @@
 .layout {
   width: 100%;
+  main {
+    min-height: 50vh;
+  }
 }
 
 .nav {
@@ -33,9 +36,13 @@
   width: 900px;
   margin: 0 auto;
   div {
+    color: rgb(119, 119, 119);
     padding: 5px 0;
     img {
       margin-right: 9px;
+    }
+    a {
+      color: rgb(57, 57, 148);
     }
   }
 }
