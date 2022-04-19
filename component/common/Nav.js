@@ -1,5 +1,5 @@
 import Link from 'next/link'
-
+import styles from '../../public/scss/Layout.module.scss'
 const navData = [
   { name: '메인', link: '/' },
   { name: '카운터', link: '/basic/counter' },
@@ -12,8 +12,8 @@ const navData = [
 
 export default function Nav() {
   return (
-    <nav>
-      <ul>
+    <nav className={styles.nav}>
+      <ul className={styles.nav_list}>
         {navData.map((nav, i) => {
           return (
             <li>
