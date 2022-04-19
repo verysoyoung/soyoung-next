@@ -1,3 +1,3 @@
 export default function Counter() {
-  return <></>
+  return <>counter</>
 }

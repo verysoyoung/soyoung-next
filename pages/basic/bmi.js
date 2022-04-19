@@ -5,6 +5,7 @@ export default function Bmi() {
   return (
     <form action="" onSubmit={handleSubmit}>
       <table>
+        bmi
         <thead></thead>
         <tbody></tbody>
       </table>
