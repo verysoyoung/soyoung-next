@@ -1,0 +1,18 @@
+.counter {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0px 20px 20px;
+}
+
+.counter > div {
+  padding: 10px 0;
+}
+
+.counter button {
+  width: 70px;
+}
+
+.counter button:last-child {
+  margin-left: 20px;
+}

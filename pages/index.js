@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import styles from '../public/scss/common/table.module.scss'
+import titlestyles from '../public/css/common/title.module.css'
 import axios from 'axios'
 export default function Home() {
   // useEffect(() => {
@@ -10,21 +10,11 @@ export default function Home() {
   //   })
   // }, [])
   return (
-    <table className={styles.table}>
-      <thead>
-        <tr>
-          <th>
-            <h2>HOME</h2>
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>
-            <div id="timeZone"></div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+    <>
+      <div>
+        <h2 className={titlestyles.title}>Home</h2>
+      </div>
+      <div id="timeZone"></div>
+    </>
   )
 }

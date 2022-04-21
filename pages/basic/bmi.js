@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-import styles from '../../public/scss/common/table.module.scss'
+import tablestyles from '../../public/css/common/table.module.css'
+import titleStyles from '../../public/css/common/title.module.css'
 
 export default function Bmi() {
   const proxy = 'http://localhost:5000'
@@ -27,14 +28,10 @@ export default function Bmi() {
   }
   return (
     <form action="" onSubmit={handleSubmit}>
-      <table className={styles.table}>
-        <thead>
-          <tr>
-            <th colSpan={2}>
-              <h2>BMI</h2>
-            </th>
-          </tr>
-        </thead>
+      <div>
+        <h2 className={titleStyles.title}>BMI</h2>
+      </div>
+      <table className={tablestyles.table}>
         <tbody>
           <tr>
             <td>

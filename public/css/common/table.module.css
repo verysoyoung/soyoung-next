@@ -1,0 +1,31 @@
+.table {
+  margin: 40px auto;
+  font-size: 15px;
+  width: 700px;
+  border: 1px solid#ddd;
+}
+.table thead th {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  height: 20px;
+  border: 1px solid#ddd;
+  padding: 10px 0;
+}
+.table td {
+  padding: 12px 15px;
+  border: 1px solid#ddd;
+  text-align: center;
+}
+.table tbody tr {
+  border: 1px solid#ddd;
+}
+.table tbody tr:last-of-type {
+  border: 1px solid#ddd;
+}
+
+.table input {
+  background-color: rgb(245, 246, 247);
+  width: 80%;
+  padding: 8px;
+}
