@@ -29,3 +29,16 @@
   width: 80%;
   padding: 8px;
 }
+.table h3 {
+  font-size: 14px;
+}
+.table input[type='submit'] {
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(204, 191, 250);
+  max-width: 400px;
+}
+.table input[type='submit']:hover {
+  background-color: rgb(147, 127, 212);
+  transition: all 0.3s;
+}

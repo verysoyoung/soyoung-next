@@ -12,7 +12,7 @@ export default function Bmi() {
       .post(proxy + '/api/basic/bmi', inputs)
       .then(res => {
         const bmi = res.data
-        document.getElementById('result-span').innerHTML = `
+        document.getElementById('result').innerHTML = `
           <h3>이름 : ${bmi.name}</h3>
           <h3>키 : ${bmi.height} cm</h3>
           <h3>몸무게 : ${bmi.weight}kg</h3>
@@ -67,7 +67,7 @@ export default function Bmi() {
           </tr>
           <tr>
             <td colSpan={2}>
-              결과 : <span id="result-span"></span>
+              결과 : <span id="result"></span>
             </td>
           </tr>
         </tbody>
